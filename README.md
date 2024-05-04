@@ -16,7 +16,7 @@ Official Docs: https://docs.pyscript.net/2024.4.1/user-guide/offline/#pyscipt-co
 
 The Folder Structure *(Viewed from inside your Project Folder)*
 
-&nbsp;__pyscript-offline  
+pyscript-offline  
 ├── node_modules  
 ├── public  
 │   ├── pyscript  
