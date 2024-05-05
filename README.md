@@ -5,14 +5,24 @@ It uses the .bat file for automated pyscript installation
 - Create a folder for your project
 - Copy the create_pyscript_project.bat file to your project folder
 - Run the create_pyscript_project.bat file
-- Enjoy, That's it!
+- Enjoy, That's it!  
+
+## Don't forget *to insert the following into your html file:*   
+<script type="module" src="/pyscript/core.js"></script>  
+\<link rel="stylesheet" href="/pyscript/core.css">  
+\<script defer src="/pyscript-offline/node_modules/@pyscript/core/src/stdlib/pyscript.js"></script>
+
+
+If that doesn't work try:
+<script type="module" src="./pyscript/core.js"></script>  
+\<link rel="stylesheet" href="./pyscript/core.css">  
+\<script defer src="/pyscript-offline/node_modules/@pyscript/core/src/stdlib/pyscript.js"></script>
 
 
 ## More Info
 Website: https://pyscript.net/  
 PyScript Examples: https://pyscript.com/@examples  
 Official Docs: https://docs.pyscript.net/2024.4.1/user-guide/offline/#pyscipt-core-from-source  
-
 
 The Folder Structure *(Viewed from inside your Project Folder)*
 
