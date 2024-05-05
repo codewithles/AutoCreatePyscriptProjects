@@ -19,6 +19,9 @@ The Folder Structure *(Viewed from inside your Project Folder)*
 pyscript-offline  
 ├── node_modules  
 ├── public  
+│   ├── css  
+│   ├── img  
+│   ├── js  
 │   ├── pyscript  
 │   ├── index.html  
 ├── package.json  
